@@ -1,4 +1,3 @@
-import type { FileListing } from '$lib/models/api.js';
 import api from '$lib/apiService.js';
 
 export async function load({ params }) {

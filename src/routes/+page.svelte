@@ -1,7 +1,4 @@
 <script lang="ts">
-
-    import type { $props } from './$types';
-    
     let { data } = $props();
 </script>
 
