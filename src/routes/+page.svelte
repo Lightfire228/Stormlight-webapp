@@ -7,6 +7,9 @@
 
 {#each data.files as file}
 <ul>
-    <li>{file.name}</li>
+    <ul>
+        <li>{file.name}</li>
+        <li>{file.type}</li>
+    </ul>
 </ul>
 {/each}
