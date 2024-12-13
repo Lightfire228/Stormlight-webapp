@@ -6,3 +6,9 @@ export type FileListing = {
 export type FileListingResponse = {
     files: FileListing[],
 }
+
+export type XSRF = {
+    value:  string,
+    name:   string,
+    cookie: string,
+}
